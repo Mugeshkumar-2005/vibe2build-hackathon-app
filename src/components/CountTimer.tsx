@@ -17,7 +17,6 @@ interface CountTimerProps {
 
 const CountTimer: React.FC<CountTimerProps> = ({
     targetDate = "2025-09-20T18:00:00",
-    title = "Hackathon Starts In",
     className = ""
 }) => {
     const [timeLeft, setTimeLeft] = useState<TimeLeft>({ days: 0, hours: 0, minutes: 0, seconds: 0 });

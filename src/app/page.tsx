@@ -6,6 +6,7 @@ import MagicBento from "@/components/MagicBento";
 import CircularText from "@/components/CircularText";
 import CountTimer from "@/components/CountTimer";
 import RegisterButton from "@/components/RegisterButton";
+import Image from "next/image";
 
 const HomePage: React.FC = () => {
   return (
@@ -42,9 +43,11 @@ const HomePage: React.FC = () => {
               className="font-semibold text-purple-400 underline hover:text-purple-300 transition-colors flex items-center gap-2"
               aria-label="Visit Pinesphere Solution website"
             >
-              <img 
-                src="/images/Pinesphere.png" 
-                alt="Pinesphere Logo" 
+              <Image
+                src="/images/Pinesphere.png"
+                alt="Pinesphere Logo"
+                width={24}
+                height={24}
                 className="w-6 h-6"
               />
               Pinesphere Solution
@@ -237,9 +240,11 @@ const HomePage: React.FC = () => {
                 rel="noopener noreferrer"
                 className="text-2xl font-bold text-orange-200 hover:text-orange-100 transition-colors underline inline-flex items-center gap-3 justify-center"
               >
-                <img 
-                  src="/images/Pinesphere.png" 
-                  alt="Pinesphere Logo" 
+                <Image
+                  src="/images/Pinesphere.png"
+                  alt="Pinesphere Logo"
+                  width={32}
+                  height={32}
                   className="w-8 h-8"
                 />
                 Pinesphere Solution
@@ -269,7 +274,7 @@ const HomePage: React.FC = () => {
         <section className="max-w-4xl mx-auto mt-16 text-center p-8 bg-gradient-to-r from-purple-900/50 to-pink-900/50 rounded-2xl border border-purple-500/40 backdrop-blur-sm hover:border-purple-400/60 transition-all duration-300 hover:transform hover:scale-105">
           <h2 className="text-3xl font-bold text-purple-300 mb-4 flex items-center justify-center gap-3">
             <Sparkles className="w-8 h-8" />
-            Don't Overthink — Just Bring Your Vibe & Build Your Future!
+            Don&apos;t Overthink — Just Bring Your Vibe & Build Your Future!
           </h2>
           <p className="text-xl text-purple-200 mb-6 flex items-center justify-center gap-2">
             <Rocket className="w-6 h-6" />
@@ -309,9 +314,11 @@ const HomePage: React.FC = () => {
               className="text-purple-400 hover:text-purple-300 transition-colors inline-flex items-center gap-2"
               aria-label="Visit sponsor website - Pinesphere Solution"
             >
-              <img 
-                src="/images/Pinesphere.png" 
-                alt="Pinesphere Logo" 
+              <Image
+                src="/images/Pinesphere.png"
+                alt="Pinesphere Logo"
+                width={16}
+                height={16}
                 className="w-4 h-4"
               />
               Sponsored by Pinesphere Solution

@@ -7,7 +7,6 @@ import { gsap } from 'gsap';
 import {
     Calendar,
     Clock,
-    Users,
     Lightbulb,
     Target,
     CreditCard,
@@ -639,7 +638,6 @@ const useMobileDetection = () => {
 };
 
 const MagicBento: React.FC<BentoProps> = ({
-    textAutoHide = true,
     enableStars = true,
     enableSpotlight = true,
     enableBorderGlow = true,
